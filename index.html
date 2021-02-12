@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+    <title>Pendientes</title>
+</head>
+<body>
+<h1 class="titulo">Lista de pendientes</h1><br>
+    <form id="lista">
+        <div class="form-group">
+            <input type="text" id="nuevo" class="form-control" placeholder="Nuevo Pendiente" autofocus>
+            <button class="btn btn-primary" id="btn-task-form">Guardar</button>
+        </div><br>
+        
+    </form>
+    <div class="mostrar-lista" id="tasks-container"></div>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+           
+        </div>
+        <div class="content-foo">
+                
+                <p>Hecho por: Kevin Rafael Nieves Rivera</p>
+        </div>
+        </div>
+        <h2 class="titulo-final">&copy;Ets | Programacion web</h2>
+    </footer>
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCmrEsjJQC2ewUBus08NXQ4KtKWIioN8EM",
+    authDomain: "pendientes-56bf4.firebaseapp.com",
+    projectId: "pendientes-56bf4",
+    storageBucket: "pendientes-56bf4.appspot.com",
+    messagingSenderId: "1073158654259",
+    appId: "1:1073158654259:web:07c79b2e66c72c61f51646"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="index.js"></script>
+</body>
+</html>

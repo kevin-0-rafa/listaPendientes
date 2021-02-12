@@ -1,0 +1,34 @@
+.contenedor-footer{
+    display: flex!important;
+    width: 90%!important;
+    justify-content: space-evenly!important;
+    margin: 0px;
+    padding-bottom: 30px!important;
+    border-bottom: 1px solid #ed6618!important;
+}
+
+.content-foo{
+    text-align: center!important;
+    padding: 20px;
+}
+
+
+
+.content-foo p{
+    color: #ccc!important;
+    text-align: center!important;
+}
+.titulo-final{
+    text-align: center!important;
+    font-size: 24px!important;
+    margin: 20px 0 0 0!important;
+    color: #9e9797!important;
+}
+.titulo{
+    color: #ed6618;
+    text-align: center!important;
+    font-size: 30px!important;
+}
+.btn btn-primary {
+    color: aqua!important;
+}
